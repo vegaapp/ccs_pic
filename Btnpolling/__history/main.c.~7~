@@ -1,0 +1,41 @@
+#include <16F688.h>
+#device ADC=10
+
+#FUSES PUT                      //Power Up Timer
+#FUSES NOBROWNOUT               //No brownout reset
+
+#use delay(internal=8000000)
+
+#define Led1  PIN_C0
+#define Led2  PIN_C5
+#define Btn1  PIN_C1
+int8  var1;
+#bit  F1 = Var1.0
+
+#INT_TIMER1
+void  TIMER1_isr(void) 
+{  output_toggle(Led1);
+
+    if(!input(Btn1)){
+      output_toggle(Led2);
+    }
+    
+
+}
+
+void main()
+{
+   setup_timer_1(T1_INTERNAL|T1_DIV_BY_4);      //131 ms overflow
+   setup_oscillator(OSC_8MHZ);
+
+   enable_interrupts(INT_TIMER1);
+   enable_interrupts(GLOBAL);
+    Var1=0;
+   while(TRUE)
+   {
+
+
+      //TODO: User Code
+   }
+
+}

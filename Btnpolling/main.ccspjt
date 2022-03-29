@@ -1,0 +1,60 @@
+[PROJECT]
+Target=main.hex
+Processor_Text=PIC16F688
+CCSVerions=5.076
+Compiler=PCM
+CCSVersion=5.076
+[Target Data]
+FileList=main.c
+[Directories]
+Include=
+[E:\FABIO\LOI\Electronica IV-Lab\Coidgos C\Btnpolling\main]
+Type=4
+[mru-list]
+1=main.c
+
+[fileformats]
+forcecoff=0
+
+[ProjectLog]
+Days=3
+D1=06-03-2020
+D1_L=4
+D1_L1=[40096]Project Opened.
+D1_L2=[40101]Started Editing.
+D1_L3=[41343]Stopped Editing.
+TotalEdit=17
+TotalDebug=0
+D1_E=16
+D1_D=0
+D1_L4=[41421]Project Closed.
+D2=07-03-2020
+D2_L=3
+D2_L1=[29771]Project Opened.
+D2_L2=[29949]Project Opened.
+D2_L3=[30001]Project Closed.
+D3=22-04-2020
+D3_L=6
+D3_L1=[76228]Project Opened.
+D3_L2=[76250]Started Editing.
+D3_L3=[76281]Stopped Editing.
+D3_E=1
+D3_D=0
+D3_L4=[76283]Project Closed.
+D3_L5=[76322]Project Opened.
+D3_L6=[76347]Project Closed.
+
+[Opened Files]
+1=..\pic16f88\mainF88.c
+t1=5
+Count=1
+2=C:\Program Files (x86)\PICC4_7\Devices\16F688.h
+t2=261
+[main.c]
+Type=4
+
+[defines]
+buildcount=11
+[Units]
+Count=1
+1=main (main)

@@ -1,0 +1,31 @@
+#include <16F688.h>
+#device ADC=10
+
+#FUSES PUT                      //Power Up Timer
+#FUSES NOBROWNOUT               //No brownout reset
+
+#use delay(internal=8000000)
+
+
+#INT_TIMER1
+void  TIMER1_isr(void) 
+{
+
+}
+
+void main()
+{
+   setup_timer_1(T1_INTERNAL|T1_DIV_BY_4);      //131 ms overflow
+
+
+   enable_interrupts(INT_TIMER1);
+   enable_interrupts(GLOBAL);
+
+   while(TRUE)
+   {
+
+
+      //TODO: User Code
+   }
+
+}

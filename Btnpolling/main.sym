@@ -1,0 +1,64 @@
+004-005 @WRITE_PROGRAM_MEMORY8.P1
+004-005 @READ_PROGRAM_MEMORY8.P2
+019.6   C1OUT
+019.7   C2OUT
+020     @SCRATCH
+021     @SCRATCH
+021     _RETURN_
+022     @SCRATCH
+023     @SCRATCH
+024     @INTERRUPT_AREA
+025     @INTERRUPT_AREA
+026     @INTERRUPT_AREA
+027     @INTERRUPT_AREA
+028     @INTERRUPT_AREA
+029     @INTERRUPT_AREA
+02A     @INTERRUPT_AREA
+02B     @INTERRUPT_AREA
+02C     var1
+02C.0   F1
+02C.1   F2
+09B-09C @READ_PROGRAM_MEMORY8.P1
+09B-09C @WRITE_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000033  TIMER1_isr
+000065  MAIN
+000065  @cinit1
+000076  @cinit2
+
+Project Directory:
+    E:\FABIO\LOI\Electronica IV-Lab\Coidgos C\Btnpolling\
+
+Project Files:
+    main.c                                                  [06-mar.-20 11:24  CRC=764488F3]
+    C:\Program Files (x86)\PICC4_7\Devices\16F688.h         [15-ene.-18 15:52  CRC=AE95EFD4]
+
+Source signature=D370689B
+Program memory checksum=0000
+Program memory CRC=0000
+Hex file CRC=C9FE
+
+Units:
+    main (main)
+
+Compiler Settings:
+    Processor:      PIC16F688
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   main.xsym
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX8:       main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.ccspjt
+    Call Tree:   main.tre
+    Statistics:  main.STA

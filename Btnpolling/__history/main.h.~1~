@@ -1,0 +1,8 @@
+#include <16F688.h>
+#device ADC=10
+
+#FUSES PUT                   	//Power Up Timer
+#FUSES NOBROWNOUT            	//No brownout reset
+
+#use delay(internal=8000000)
+
