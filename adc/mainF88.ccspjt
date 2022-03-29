@@ -1,0 +1,52 @@
+[PROJECT]
+Target=mainF88.hex
+Processor_Text=PIC16F88
+CCSVersion=5.076
+Compiler=PCM
+[Target Data]
+FileList=mainF88.c
+[mainF88.c]
+Type=4
+[mru-list]
+1=mainF88.c
+
+[defines]
+buildcount=5
+
+[Opened Files]
+1=mainF88.c
+t1=7
+2=C:\Program Files (x86)\PICC\Devices\16F88.h
+t2=349
+Count=2
+[Units]
+Count=1
+1=mainF88 (main)
+
+[ProjectLog]
+Days=4
+D1=21-10-2020
+D1_L=4
+D1_L1=[33793]Stopped Editing.
+TotalEdit=12
+TotalDebug=0
+D1_E=12
+D1_D=0
+D1_L2=[34397]Project Closed.
+D1_L3=[58647]Project Opened.
+D1_L4=[58662]Project Closed.
+D2=22-10-2020
+D2_L=2
+D2_L1=[60145]Project Opened.
+D2_L2=[61634]Project Closed.
+D3=11-10-2021
+D3_L=2
+D3_L1=[60273]Project Opened.
+D3_L2=[60767]Project Closed.
+D4=12-10-2021
+D4_L=2
+D4_L1=[41875]Project Opened.
+D4_L2=[42017]Project Closed.
+
+[fileformats]
+forcecoff=0
